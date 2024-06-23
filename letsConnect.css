@@ -1,0 +1,127 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  background-color: beige;
+}
+
+.header-section {
+  height: 5vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-size: 1.5rem;
+}
+.logo-section {
+  width: 20%;
+}
+.logo-section :hover {
+  transition: transform 0.3s;
+  transform: scaleX(1.5);
+}
+.logo-image {
+  width: 74px;
+  height: 80px;
+  margin-top: 8px;
+}
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  margin: 40px;
+  list-style: none;
+}
+.anker-list-items {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar :hover {
+  transition: transform 0.5s;
+  transform: scale(1.5);
+}
+.letsconnect {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.education-job h1 {
+  margin-top: 8rem;
+  margin-bottom: 0;
+  margin-left: 7rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.education-job-info {
+  font-size: 2.2rem;
+  width: 50%;
+  margin-top: -0.5rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  line-height: 4rem;
+  color: black;
+  text-align: justify;
+}
+.education-job-info :nth-child(2) {
+  margin-top: 2rem;
+}
+.hobbies h1 {
+  margin-top: 8rem;
+  margin-bottom: 0;
+  margin-left: 7rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.hobbies-info {
+  font-size: 2.2rem;
+  width: 50%;
+  margin-top: -5rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  line-height: 4rem;
+  color: black;
+  text-align: justify;
+}
+.Contact h1 {
+  margin-top: 8rem;
+  margin-bottom: 0;
+  margin-left: 7rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.contact-info {
+  font-size: 2.2rem;
+  word-spacing: 0.7rem;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  line-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -7rem;
+}
+img:hover {
+  transition: transform 0.5s;
+  transform: scale(1.5);
+}
+.belief {
+  font-size: 2.2rem;
+  word-spacing: 0.7rem;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 65%;
+}
